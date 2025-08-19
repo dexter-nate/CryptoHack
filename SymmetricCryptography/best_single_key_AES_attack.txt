@@ -1,0 +1,3 @@
+Biclique Attack := tecnica avanzata di criptoanalisi che migliora l’attacco brute-force classico contro cifrari a blocchi (come AES).
+
+Idea chiave: usa una struttura chiamata biclique (una forma di grafo bipartito completo) per collegare in modo intelligente chiavi parziali e ridurre la complessità del brute force, calcolando parti comuni una sola volta.

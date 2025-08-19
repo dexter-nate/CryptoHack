@@ -1,0 +1,4 @@
+🔑 Milenage
+    Standard usato nelle reti mobili (3G, 4G) per autenticare l’utente e generare chiavi di cifratura.
+    Usa AES come base. Implementa funzioni f1–f5 per firmare, autenticare e derivare chiavi.
+    Serve tra SIM/USIM e rete per rendere sicura la connessione.

@@ -1,0 +1,29 @@
+🔑 1️⃣ Shor’s Algorithm
+
+Per cosa è usato:
+Serve per fattorizzare grandi numeri interi in fattori primi molto velocemente.
+Questo rompe la base di molti sistemi a chiave pubblica come RSA.
+
+Principio di funzionamento (semplificato):
+    Usa la sovrapposizione quantistica per provare molti divisori possibili in parallelo.
+    Trova il periodo di una funzione legata al numero da fattorizzare (period finding).
+    Grazie a questo, scopre i fattori primi in tempo polinomiale, mentre i metodi classici richiedono tempo esponenziale.
+
+🔑 2️⃣ Grover’s Algorithm
+
+Per cosa è usato:
+Accelera la ricerca in uno spazio non ordinato.
+Nel caso della crittografia, si applica agli algoritmi simmetrici (AES, 3DES) per fare brute force sulle chiavi.
+
+Principio di funzionamento (semplificato):
+    Se devi trovare una chiave segreta provando tutte le combinazioni, un computer classico deve provarle una per una → tempo proporzionale a NN.
+    Grover usa la sovrapposizione e l’interferenza quantistica per ridurre il numero di tentativi a circa radice di N​.
+
+Effetto:
+Non rompe l’algoritmo, ma dimezza la sicurezza effettiva.
+Esempio: AES-128 → sicurezza equivalente a 64 bit contro un attaccante quantistico.
+
+⚡ In breve:
+Algoritmo	Cosa risolve    Cosa rompe  Velocità quantistica
+Shor	    IFP & DLOG      Alg ASymm	Esponenziale → Polinomiale
+Grover	    Keys BFA	    Alg  Symm	Riduce il costo da N a √N (Riduzione polinomiale)
